@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(47, 47, 47);
+}
+
+#entete_dark{
+    
+    width: 40%;
+    display: flex;
+}
+#iconeDark{
+    width: 50px; 
+}
+#darkMode{
+    color: white; 
+    margin-top: 15px;   
+}
+span{
+    color: rgb(253, 33, 85);   
+}
+#icone_menu{
+    color: white;
+    margin: 10px;
+    width: 10%;
+    font-size: 1.5rem;
+}
+#moi{
+    color: white;
+}
+#menu ul li a{
+    /* display:none;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 2%; */
+    color: white;
+    text-decoration: none;
+}
+#menu_cache{
+    display: none;
+}
+.entete{
+    display: flex;
+    justify-content: space-between;
+    /* height: 10vh; */
+}
+header:after {
+    content: '<body>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1.3rem;
+    position: absolute;
+    margin-top: -27.5rem;
+    left: 1.2rem;
+}
+h1:before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: -2rem;
+    /* left: -1.5rem; */
+}
+main{
+    margin-left: 1.5rem;
+}
+main h1{
+    color: white;
+    margin-top: 5em;
+    font-size: 35px;
+}
+h1:after {
+    content: '</h1>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 2rem;
+    /* left: -1.5rem; */
+}
+main p{
+    color: white;
+    font-size: smaller;
+    letter-spacing: 3px;
+    font-weight: light;
+    margin-top: 2rem;
+}
+p:before {
+    content: '<p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: -1.5rem; 
+    /* left: -1.5rem;*/
+}
+p:after {
+    content: '</p>';
+    font-family: 'La Belle Aurore',cursive;
+    color: #515152;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 1rem;
+    left: 1rem;
+}
+#btncontact button{
+    color: rgb(5, 253, 216);
+    border: solid rgb(5, 253, 216) 1px;
+    padding: 10px;
+    margin-top: 3rem;
+    margin-left: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+button {
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: rgb(47, 47, 47);
+    letter-spacing: 3px;
+  }
+  
+  /* button::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(5, 253, 216);
+    /* color: black; */
+    /* transform-origin: center right; */
+    transform: scaleX(0);
+    transition: transform 0.25s ease-in-out;
+  } */
+  
+  /* button:hover {
+    cursor: pointer;
+    color: black;
+  }
+   */
+  button:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+  }
+  
+  #scroll_down{
+      /* position: absolute; */
+      right: 10px;
+      bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+  }
+  #scroll_down p {
+      -webkit-writing-mode: vertical-rl;
+      background-color: white;
+      
+      
+  }
+
+
+
